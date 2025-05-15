@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 55vw;
+    height: 140vh;
+    background-color: #f0f0f0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    background-color: #31302f;
+    color: white;
+    gap: 1em;
+    padding: 2.5em;
+
+    h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5em;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        margin: 0 1em;
+        width: 20vw;
+    }
+}
+
+.profile {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    gap: 0.5em;
+
+    h4 {
+        font-size: 1.2em;
+        border-bottom: #31302f solid 1px;
+        margin: 0;
+    }
+}
+
+.education {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.5em;
+
+    h5 {
+        font-size: 1em;
+        margin: 0;
+    }
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5em;
+
+    h5 {
+        font-size: 1em;
+        margin: 0;
+    }
+}
+
+.project p {
+    padding: 0 1em;
+}
+
+.Experience {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 0.5em;
+
+}
+
+.Experience-title {
+    h4 {
+        font-size: 1.2em;
+        border-bottom: #31302f solid 1px;
+        margin: 0;
+    }
+}
+
+.Experience-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5em;
+
+
+}
