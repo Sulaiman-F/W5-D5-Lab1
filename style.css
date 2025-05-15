@@ -119,6 +119,19 @@ body {
     justify-content: center;
     width: 100%;
     gap: 0.5em;
+}
 
+.profile ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90%;
 
+    li {
+        font-size: 1em;
+    }
 }

@@ -50,6 +50,18 @@ let element =
             <div className="Experience-con"> <p>07/2024 – 01/2025</p>
                 <p>Riyadh, Saudi Arabia</p></div>
         </div>
+        <div className="profile">
+            <h4>Soft Skills</h4>
+            <ul>
+                <li>Communication |</li>
+                <li>Adaptability |</li>
+                <li>Creative |</li>
+                <li>Collaborative |</li>
+                <li>Flexible |</li>
+                <li>Teamwork |</li>
+                <li>Self-motivation   </li>
+            </ul>
+        </div>
     </div>
 
 
